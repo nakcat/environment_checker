@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "Environment Checker - Hostname mouse stalker",
+  "version": "0.0.0.2",
+  "description": "Always be aware of host names.",
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png" },
+  "permissions": [
+    "activeTab"
+  ],
+  "content_scripts": [{
+    "matches": ["*://*/*"],
+    "js": [
+      "content.js"
+    ]
+  }]
+}
