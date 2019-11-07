@@ -1,0 +1,7 @@
+#stalker {
+  color: black;
+  font-family: sans-serif;
+  font-size: 100%;
+  position: fixed;
+  z-index: 2147483647;
+}
